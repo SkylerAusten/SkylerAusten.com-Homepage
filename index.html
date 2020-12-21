@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  margin:0;
+}
+
+th, td {
+  padding: 5px;
+}
+
+table {
+  border-spacing: 6px;
+}
+
+p {
+  line-height: 50%;
+  font-family: "MS Sans Serif";
+  font-size: 10pt;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background: #C0C0C0;
+  padding: 2px 6px 2px 6px;
+}
+
+button img{
+  width: 16px;
+  height: 16px;
+      vertical-align: middle;
+}
+
+img.start{
+  width: 16px;
+  height: 14px;
+      vertical-align: middle;
+}
+
+b.startb{
+  vertical-align: middle;
+}
+
+span {
+  background-color: #008080;
+}
+
+.taskbar {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  z-index: 2;
+  width: 100%;
+  outline: 1px solid #DFDFDF;
+  border-top: 1px solid white;
+  background: #C0C0C0;
+}
+
+span.program {
+  background-color: transparent;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.taskbar-divider {
+  border-left: 1px solid #808080;
+  border-right: 1px solid white;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin: 2px;
+}
+
+.tray {
+  display: flex;
+  flex-direction: row;
+  line-height: 22px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+  right: 0px;
+  width: 105px;
+}
+
+img.tray-icon {
+  padding: 0px 0px 4px 0px;
+  width: 16px;
+  height: 16px;
+      vertical-align: middle;
+}
+
+.inset-shallow {
+  border-style: solid;
+  border-width: 1;
+  border-color: #808080;
+  background-color: #C0C0C0;
+  color: black;
+  position: absolute;
+  vertical-align: middle;
+  right: 0px;
+}
+
+.taskbar-time {
+  font-family: "MS Sans Serif";
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 4px;
+  color: black;
+}
+
+</style>
+
+<body>
+<table style="width:17%;margin:5px;">
+  <tr>
+    <td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="home.png" alt="Home" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 8px'> Home </span></p>
+	</td>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="projects.png" alt="Projects" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 2px'> Projects </span></p>
+	</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="activities.png" alt="Activities" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span> Activities </span></p>
+	</td>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="blog.png" alt="Blog" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 16px'> Blog </span></p>
+	</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="education.png" alt="Education" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: -3px'> Education </span></p>
+	</td>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="materials.png" alt="Materials" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span> Materials </span></p>
+	</td>
+  </tr>
+  <tr>
+    <td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="about.gif" alt="About" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 9px'> About </span></p>
+	</td>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="txt.png" alt="Resume" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span> Resume </span></p>
+	</td>
+  </tr>
+  <tr>
+    <td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="linkedin.png" alt="LinkedIn" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 10px'> CTF </span></p>
+	</td>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="email.png" alt="Email" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 10px'> Email </span></p>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	<a href="https://www.skylerausten.xyz/">
+		<img src="github.png" alt="GitHub" style="width:42px;height:42px;border:0;margin-left:5px;">
+	</a>
+	<p><a href="https://www.skylerausten.xyz/"><span style='margin-left: 5px'> GitHub </span></p>
+	</td>
+  </tr>
+ 
+</table>
+
+<div class="taskbar">
+  <button title="Home">
+	<img class="start" src="start.png">
+	<b class="startb">Start</b>
+  </button>
+  <div class="taskbar-divider"></div>
+  <div class="tasks">
+	<button class="task toggle">
+		<img class="icon" draggable="false" src="linkedin.png" width="16" height="16">
+		<span class ="program"> LinkedIn Profile Page</span>
+	</button>
+  </div>
+  <div class="tasks">
+	<button class="task toggle">
+		<img class="icon" draggable="false" src="twitter.png" width="16" height="16">
+		<span class ="program"> https://www.twitter.com/...</span>
+	</button>
+  </div>
+  <div class="tasks">
+	<button class="task toggle">
+		<img class="icon" draggable="false" src="instagram.png" width="16" height="16">
+		<span class ="program"> https://www.instagram.com/... </span>
+	</button>
+  </div>
+  <div class="tray inset-shallow">
+    <div class="tray-icons">
+	  <img class="tray-icon" src="ts.png" title="Task Scheduler" onclick="alert('Thanks for taking an interest in my site!')">
+	  <img class="tray-icon" src="snd.png" title="Volume Manager" onclick="alert('Have a good day!')">
+	</div>
+	<div class="taskbar-time" title="Sunday, March 29, 01:29 AM">01:29 AM</div>
+</div>
+
+</body>
+
+</html>
